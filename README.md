@@ -19,7 +19,7 @@ npm start
 ```yaml
 public:
   plugins:
-    - name: MediaPopoutPlugin
+    - name: BbbPluginMediaPopout
       url: <<PLUGIN_URL>>
 ```
 
@@ -32,9 +32,9 @@ npm install
 npm run build-bundle
 ```
 
-The above command will generate the `dist` folder, containing the bundled JavaScript file named `MediaPopoutPlugin.js`. This file can be hosted on any HTTPS server.
+The above command will generate the `dist` folder, containing the bundled JavaScript file named `BbbPluginMediaPopout.js`. This file can be hosted on any HTTPS server.
 
-Alternatively, you can host the bundled file on the BigBlueButton server by copying dist/TourPlugin.js to the folder /var/www/bigbluebutton-default/assets/plugins. In this case, the <<PLUGIN_URL>> will be https://<your-host>/plugins/MediaPopoutPlugin.js.
+Alternatively, you can host the bundled file on the BigBlueButton server by copying `dist/BbbPluginMediaPopout.js` to the folder `/var/www/bigbluebutton-default/assets/plugins`. In this case, the `<<PLUGIN_URL>>` will be `https://<your-host>/plugins/BbbPluginMediaPopout.js`.
 
 ## Background
 
