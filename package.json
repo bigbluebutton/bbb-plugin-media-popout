@@ -1,6 +1,6 @@
 {
-  "name": "plugin-media-popout",
-  "version": "0.1.1",
+  "name": "bbb-plugin-media-popout",
+  "version": "0.0.1",
   "private": false,
   "main": "./src/index.tsx",
   "dependencies": {

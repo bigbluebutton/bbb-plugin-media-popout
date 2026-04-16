@@ -28,7 +28,7 @@ const intlMessages = defineMessages({
   },
 });
 
-function MediaPopoutPlugin({ pluginUuid: uuid }: PopoutPluginProps):
+function BbbPluginMediaPopout({ pluginUuid: uuid }: PopoutPluginProps):
   React.ReactElement<PopoutPluginProps> {
   BbbPluginSdk.initialize(uuid);
   const pluginApi: PluginApi = BbbPluginSdk.getPluginApi(uuid);
@@ -162,4 +162,4 @@ function MediaPopoutPlugin({ pluginUuid: uuid }: PopoutPluginProps):
   return null;
 }
 
-export default MediaPopoutPlugin;
+export default BbbPluginMediaPopout;

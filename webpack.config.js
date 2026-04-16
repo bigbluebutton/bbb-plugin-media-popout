@@ -5,8 +5,8 @@ const path = require('path');
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    filename: 'MediaPopoutPlugin.js',
-    library: 'MediaPopoutPlugin',
+    filename: 'BbbPluginMediaPopout.js',
+    library: 'BbbPluginMediaPopout',
     libraryTarget: 'umd',
     publicPath: '/',
     globalObject: 'this',

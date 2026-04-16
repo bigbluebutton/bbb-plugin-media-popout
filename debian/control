@@ -1,15 +1,15 @@
-Source: bbb-plugin-template
+Source: bbb-plugin-media-popout
 Section: web
 Priority: extra
 Maintainer: Anton Georgiev <anton.georgiev@blindsidenetworks.com>
 Build-Depends: debhelper (>= 13), nodejs (>= 18)
 Standards-Version: 4.1.4
-Homepage: https://github.com/bigbluebutton/plugin-template
+Homepage: https://github.com/bigbluebutton/bbb-plugin-media-popout
 
-Package: bbb-plugin-template
+Package: bbb-plugin-media-popout
 Architecture: all
 Depends: ${misc:Depends}, nodejs
-Description: Share a webpage with all session participants
+Description: Popout webcam and screenshare video streams
  An official BigBlueButton plugin which allows
- the presenter to display a web page to
- all viewers inside of a session.
+ users to pop out webcam and screenshare video
+ streams into separate browser windows.
