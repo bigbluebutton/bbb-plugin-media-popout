@@ -45,6 +45,7 @@
     "@babel/preset-react": "^7.18.6",
     "@types/node": "^20.4.4",
     "@types/react": "^18.2.15",
+    "copy-webpack-plugin": "^12.0.2",
     "@types/react-dom": "^18.2.7",
     "@types/react-modal": "^3.16.0",
     "@types/styled-components": "^5.1.26",
