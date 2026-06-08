@@ -1,0 +1,7 @@
+{
+  "requiredSdkVersion": "~0.0.59",
+  "name": "MediaPopoutPlugin",
+  "version": "0.1.0",
+  "javascriptEntrypointUrl": "MediaPopoutPlugin.js",
+  "localesBaseUrl": "https://cdn.dominio.com/pluginabc/"
+}
