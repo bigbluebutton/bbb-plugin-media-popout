@@ -4,7 +4,7 @@
   "private": false,
   "main": "./src/index.tsx",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.15.0"
   },
   "dependencies": {
     "@testing-library/react": "^13.4.0",
